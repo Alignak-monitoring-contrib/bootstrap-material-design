@@ -2,7 +2,7 @@
   border-radius: 2px;
   border: 0;
 
-  .variations(~".panel", ~" > .panel-heading", background-color, @grey-200);
+  .variations(~".panel", ~" > .panel-heading", background-color, @blue-grey-500);
   .shadow-z-1;
 }
 
@@ -11,11 +11,16 @@
   color: @mdb-text-color-light;
   border: 0;
 }
+/*
 .panel-default, .panel:not([class*="panel-"]) {
   > .panel-heading {
     color: @mdb-text-color-primary;
   }
 }
+*/
 .panel-footer {
+  background-color: @grey-200;
+}
+.panel-body {
   background-color: @grey-200;
 }
